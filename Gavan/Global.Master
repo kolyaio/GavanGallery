@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Global.master.cs" Inherits="Gavan.Global" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script src="Scripts/jquery.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <title>Gavan</title>
+    <link rel="Stylesheet" type="text/css" href="Styles/master.css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <div id="container">
+		<div id="header">
+			<div class="logo">
+				<a href="<%=Request.Url.Authority%>/default.aspx"><img src="http://<%=Request.Url.Authority %>/slices/logo.png" alt="גוון" /></a>
+			</div>
+			<div class="navglob">
+				<ul>
+					<li><a href="http://<%=Request.Url.Authority %>/default.aspx">ראשי</a></li>
+					<li><a href="http://<%=Request.Url.Authority %>/about.aspx">אודות</a></li>
+					<li><a href="http://<%=Request.Url.Authority %>/info.aspx">מידע</a></li>
+				</ul>
+			</div>
+             <% if (Session["lgin"] == null && Session["eid"] == null)
+                { %>
+			<div class="navguest">
+				<ul>
+					<li><a href="http://<%=Request.Url.Authority %>/Account/login.aspx">התחבר</a></li>
+					<li><a href="http://<%=Request.Url.Authority %>/Account/register.aspx">הרשם</a></li>
+				</ul>
+			</div>
+            <% } %>
+            <% else if ((bool)Session["lgin"] == true && (Session["eid"] != null))
+                { %>
+			<div class="navlogged">
+				<ul>
+                    <% if (Session["lvl"] == null)
+                        Session["lvl"] = -1; %>
+                    <%  if ((int)Session["lvl"] == 3 && Session["lgin"] != null){ %>
+                        <li><a href="http://<%=Request.Url.Authority %>/Admin">ניהול</a></li>
+                    <% } %>
+					<li><a href="http://<%=Request.Url.Authority %>/Account/studio.aspx">הסטודיו שלי</a></li>
+					<li><a href="http://<%=Request.Url.Authority %>/Account/logout.aspx">התנתק</a></li>
+				</ul>
+			</div>
+            <% } %>
+		</div>
+		<div id="content">
+        <div class="error">
+            <p></p>
+        </div>
+        <div class="ok">
+            <p></p>
+        </div>
+        <div id="breadcrumb">
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+            <asp:SiteMapPath ID="SiteMap1" runat="server">
+            </asp:SiteMapPath>
+        </div>
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="empty"></div>
+        </div>
+		<div id="footer">
+			<ul>
+                <li  class="fnavglob">
+						<dl>
+							<dt><a href="http://<%=Request.Url.Authority %>/default.aspx">ראשי</a></dt>
+							<dt><a href="http://<%=Request.Url.Authority %>/about.aspx">אודות</a></dt>
+							<dt><a href="http://<%=Request.Url.Authority %>/info.aspx">מידע</a></dt>
+							<dt><a href="http://<%=Request.Url.Authority %>/terms.aspx">תקנון</a></dt>
+						</dl>
+                 </li>
+                <li class="copyright">כל הזכויות שמורות &copy; 2012-2013</li>
+
+                    <% if (Session["lgin"] == null && Session["eid"] == null)
+                        { %>
+                        <li class="fnavguest">
+						        <dl>
+							        <dt><a href="http://<%=Request.Url.Authority %>/Account/login.aspx">התחבר</a></dt>
+							        <dt><a href="http://<%=Request.Url.Authority %>/Account/register.aspx">הרשם</a></dt>
+						        </dl>
+                        </li>
+                    <% } %>
+                     
+                    <% else if ((bool)Session["lgin"] == true && (Session["eid"] != null))
+                        { %>
+					    <li class="fnavlogged">
+						    <dl>
+                                <% if (Session["lvl"] == null)
+                                    Session["lvl"] = -1; %>
+                                <%  if ((int)Session["lvl"] == 3 && Session["lgin"] != null){ %>
+                                    <dt><a href="http://<%=Request.Url.Authority %>/Admin">ניהול</a></dt>
+                                <% } %>
+							    <dt><a href="http://<%=Request.Url.Authority %>/Account/studio.aspx">הסטודיו שלי</a></dt>
+							    <dt><a href="http://<%=Request.Url.Authority %>/Account/logout.aspx">התנתק</a></dt>
+						    </dl>
+					    </li>
+                    <% } %>
+               </ul>
+          </div>
+       </div>
+       <% if(!String.IsNullOrEmpty(ok)) { %>
+          <script type="text/javascript">
+              $(".ok").css("display", "block");
+              $(".ok p").text(" <%=ok%> "); 
+          </script>
+       <%
+           ok = null;
+       } %>
+
+       <% if(!String.IsNullOrEmpty(error)) { %>
+          <script type="text/javascript">
+             $(".error").css("display", "block");
+             $(".error p").text(" <%=error%> "); 
+          </script>
+       <%
+           error = null;
+       } %>
+</body>
+</html>

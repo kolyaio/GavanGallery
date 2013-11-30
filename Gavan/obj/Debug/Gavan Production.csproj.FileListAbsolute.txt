@@ -1,0 +1,6 @@
+\\10.0.0.138\share\GavanProject\Gavan Production\Gavan\bin\Gavan.dll.config
+\\10.0.0.138\share\GavanProject\Gavan Production\Gavan\bin\Gavan.dll
+\\10.0.0.138\share\GavanProject\Gavan Production\Gavan\bin\Gavan.pdb
+\\10.0.0.138\share\GavanProject\Gavan Production\Gavan\obj\Debug\Gavan Production.csprojResolveAssemblyReference.cache
+\\10.0.0.138\share\GavanProject\Gavan Production\Gavan\obj\Debug\Gavan.dll
+\\10.0.0.138\share\GavanProject\Gavan Production\Gavan\obj\Debug\Gavan.pdb

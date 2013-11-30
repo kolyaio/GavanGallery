@@ -1,0 +1,4 @@
+D:\Gavan\Gavan\bin\Gavan.dll
+D:\Gavan\Gavan\bin\Gavan.pdb
+D:\Gavan\Gavan\obj\Release\Gavan.dll
+D:\Gavan\Gavan\obj\Release\Gavan.pdb

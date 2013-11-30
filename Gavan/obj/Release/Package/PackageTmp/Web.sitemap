@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+     <siteMapNode url="default.aspx" title="דף הבית"  description="הדף הראשי של האתר והגלריה של כל התמונות באתר.">
+        <siteMapNode url="~/about.aspx" title="אודות"  description="אודות האתר" />
+        <siteMapNode url="~/info.aspx" title="מידע"  description="מידע על אומנות" />
+        <siteMapNode url="~/terms.aspx" title="תקנון"  description="תנאי השימוש באתר" />
+        <siteMapNode url="~/Account/" title="הסטודיו שלי"  description="" >
+          <siteMapNode url="~/Account/login.aspx" title="התחברות"  description="התברות לאתר" roles="*"/>
+          <siteMapNode url="~/Account/register.aspx" title="הרשמה"  description="הרשמה לאתר" rols="*"/>
+          <siteMapNode url="~/Account/studio.aspx" title="תמונות שהעלתי"  description="התמונות המשתמש העלה" roles="Users" />
+          <siteMapNode url="~/Account/upload.aspx" title="העלאת תמונה"  description="העלאת תמונה לאתר" roles="Users" />
+          <siteMapNode url="~/Account/edit.aspx" title="עריכת פרטים"  description="עריכת פרטי משמתש" roles="Users" />
+          <siteMapNode url="~/Account/logout.aspx" title="התנתקות"  description="התנתקות המשתמש מהמערכת" roles="Users" />
+        </siteMapNode>
+       <siteMapNode url="~/Pictures/" title="תמונות"  description="" >
+         <siteMapNode url="~/Pictures/delete.aspx" title="מחיקת תמונה"  description="מחיקת תמונה מהמערכת" roles="Users" />
+         <siteMapNode url="~/Pictures/edit.aspx" title="עריכת תמונה"  description="עריכת פרטי התמונה" roles="Users" />
+         <siteMapNode url="~/Pictures/default.aspx" title=""  description="" roles="*">
+           
+         </siteMapNode>
+       </siteMapNode>
+         <siteMapNode url="~/Admin/" title="פאנל ניהול"  description="מקום העריכה במוגבל למנהל האתר" roles="Admin">
+           <siteMapNode url="~/Admin/default.aspx" title="ניהול ראשי"  description="עמוד ניהול ראשי" roles="Admin"/>
+           <siteMapNode url="~/Admin/.aspx" title="ניהול ראשי"  description="עמוד ניהול ראשי" roles="Admin"/>
+           <siteMapNode url="~/Admin/info/default.aspx" title="מידע"  description="מידע על אומנות באתר" roles="Admin">
+              <siteMapNode url="~/Admin/info/add.aspx" title="הוספת מידע"  description="הוספת מידע לאתר" roles="Admin" />
+              <siteMapNode url="~/Admin/info/delete.aspx" title="מחיקת מידע"  description="מחיקת מידע מהאתר" roles="Admin" />
+              <siteMapNode url="~/Admin/info/edit.aspx" title="עריכת מידע"  description="עריכת מידע באתר" roles="Admin" />
+           </siteMapNode>
+           <siteMapNode url="~/Admin/pages/default.aspx" title="עמודים"  description="רשימת עמודים באתר" roles="Admin">
+             <siteMapNode url="~/Admin/pages/add.aspx" title="הוספת עמוד"  description="הוספת עמוד לאתר" roles="Admin" />
+             <siteMapNode url="~/Admin/pages/delete.aspx" title="מחיקת עמוד"  description="מחיקת עמוד מהאתר" roles="Admin" />
+             <siteMapNode url="~/Admin/pages/edit.aspx" title="עריכת עמוד"  description="עריכת עמוד באתר" roles="Admin" />
+           </siteMapNode>
+           <siteMapNode url="~/Admin/users/default.aspx" title="משתמשים"  description="רשימת משתמשים" roles="Admin">
+             <siteMapNode url="~/Admin/users/delete.aspx" title="מחיקת משתמשים"  description="מחיקת משתמשים מהאתר" roles="Admin" />
+             <siteMapNode url="~/Admin/users/edit.aspx" title="עריכת משתמשים"  description="עריכת משתמשים באתר" roles="Admin" />
+           </siteMapNode>
+         </siteMapNode>
+       </siteMapNode>
+</siteMap>

@@ -1,0 +1,19 @@
+#terms {
+	width: 600px;
+	margin: 0 auto;
+	font-family:  Helvetica, Arial, Tahoma, Geneva,Sens-Sarif;
+	color: #003274;
+	font-size: 13pt;
+}
+
+#terms li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#termsHeader {
+	width: 600px;
+	margin: 0 auto;
+	font-family: bob-regular;
+    color: #003274;
+}

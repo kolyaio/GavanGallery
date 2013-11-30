@@ -1,0 +1,84 @@
+﻿/* Pages */
+.pages {
+	height: 60px;
+	margin-left: 61px;
+}
+.pages  ul li{
+	float: left;
+	margin: 5px;
+	color: #ffffff;
+	width:28px;
+	height: 30px;
+	background: url('../../slices/pages-background.png');
+}
+.pages ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	margin-right: 10px;
+	margin-top: 7px;
+	font-family: 'Neue Helvetica', Helvetica, Arial, sans-serif;
+}
+.pages ul li a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+	display: block;
+}
+
+.pages ul {
+	list-style-type: none;
+}
+/* Pages */
+
+#usersMembers 
+{
+    border-collapse:collapse;
+    color: #003274;
+    font-size: 15px;
+    width: 500px;
+    margin: 20px auto;
+}
+#usersMembers td, #usersMembers th {
+    padding: 10px;
+    text-align: center;
+    border-top-color: #0249A5;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: #0249A5;
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-bottom-color: #0249A5;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-left-color: #0249A5;
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-left-color: #0249A5;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+
+#usersMembers td:last-child, #usersMembers th:last-child 
+{
+    border-left-color: #0249A5;
+    border-left-style: solid;
+    border-left-width: 0px;
+}
+#usersMembers th
+{
+    border-top-color: #0249A5;
+    border-top-style: solid;
+    border-top-width: 0px;
+    text-decoration: underline;
+}
+
+#usersMembers a
+{
+     color: #003274;   
+     text-decoration: none;
+}
+
+#usersMembers a:hover
+{
+     text-decoration: underline;
+}

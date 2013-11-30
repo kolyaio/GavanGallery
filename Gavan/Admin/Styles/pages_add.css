@@ -1,0 +1,35 @@
+﻿#pages_add input[type='text'],
+#pages_add input[type='password'],
+#pages_add input[type='submit'],
+#pages_add input[type='reset'] {
+	background: #ffffff;
+    font-weight: bold;
+    font-size: 13pt;
+    color: #003274 !important;
+    border: 1px solid #0249A5;
+    padding: 15px 25px;
+    font-family:  Helvetica, Arial, Tahoma, Geneva,Sens-Sarif;
+}
+input 
+{
+    margin: 10px;
+}
+#pages_add input:hover 
+{
+    background-color: #C2DCFF;
+}
+#pages_add a 
+{
+    color: #003274;
+}
+#pages_add a:hover
+{
+    color: #0059CE;
+}
+#pages_add 
+{
+    font-family: bob-regular;
+    color: #003274;
+    width: 800px;
+    margin: 0 auto;
+}

@@ -1,0 +1,102 @@
+﻿/* Content */
+/* Order Images */
+#buttons 
+{
+    margin-top: 15px;
+    margin-right: 140px;    
+}
+
+#upload, #edit
+{
+    background: #fff;
+    color: #003274;
+    border: 1px solid #0249A5;
+    padding: 15px 30px;
+    text-align: center;
+}
+#upload:hover ,#edit:hover
+{
+    background-color: #C2DCFF;
+}
+.order {
+	background: url('../slices/order-background.png');
+	width: 707px;
+	height:42px;
+	margin: 0 auto;
+	color: #ffffff;
+	font-size: 11pt;
+	font-family : bob-regular;
+}
+
+.order ul 
+{
+    list-style-type: none;
+    padding-top: 15px;
+    padding-right: 40px;
+}
+.order ul li 
+{
+    float: right;
+}
+.order ul li dl dt 
+{
+    float: right; 
+    margin-right: 5px;
+}
+/* Order Images */
+
+/* Images */
+.images {
+	padding-top: 30px;
+	width: 900px;
+	min-height: 100%;
+	margin: 0 auto;
+}
+.images img {
+	width: 207px;
+	height:141px;
+	border: 1px solid #0249a5;
+}
+.images ul li {
+	list-style-type: none;
+	float: left;
+}
+.images dl dt {
+	float: right;
+	padding: 10px;
+	margin: 35px 34px;
+	border: 1px solid #0249a5;
+}
+/* Images */
+
+/* Pages */
+.pages {
+	height: 60px;
+	margin-left: 61px;
+}
+.pages  ul li{
+	float: left;
+	margin: 5px;
+	color: #ffffff;
+	width:28px;
+	height: 30px;
+	background: url('../slices/pages-background.png');
+}
+.pages ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	margin-right: 10px;
+	margin-top: 7px;
+	font-family: 'Neue Helvetica', Helvetica, Arial, sans-serif;
+}
+.pages ul li a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+	display: block;
+}
+
+.pages ul {
+	list-style-type: none;
+}
+/* Content */

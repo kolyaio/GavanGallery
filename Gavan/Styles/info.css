@@ -1,0 +1,28 @@
+﻿#info h1 
+{
+    color: #003274;
+    font-family: alef-regular;
+    margin-bottom: 10px;
+}
+
+#info {
+	  color: #003274;
+}
+
+
+#info
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#info a 
+{
+      color: #003274;
+}
+
+#info a:hover
+{
+      color: #003274;
+      font-weight: bold;
+}

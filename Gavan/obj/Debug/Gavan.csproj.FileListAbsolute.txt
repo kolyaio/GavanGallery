@@ -1,0 +1,10 @@
+c:\documents and settings\nikolai\my documents\visual studio 2010\Projects\Gavan\Gavan\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\nikolai\my documents\visual studio 2010\Projects\Gavan\Gavan\bin\Gavan.dll
+c:\documents and settings\nikolai\my documents\visual studio 2010\Projects\Gavan\Gavan\bin\Gavan.pdb
+c:\documents and settings\nikolai\my documents\visual studio 2010\Projects\Gavan\Gavan\obj\Debug\Gavan.dll
+c:\documents and settings\nikolai\my documents\visual studio 2010\Projects\Gavan\Gavan\obj\Debug\Gavan.pdb
+D:\Gavan\Gavan\bin\Gavan.dll
+D:\Gavan\Gavan\bin\Gavan.pdb
+D:\Gavan\Gavan\obj\Debug\Gavan.dll
+D:\Gavan\Gavan\obj\Debug\Gavan.pdb
+D:\Gavan\Gavan\obj\Debug\Gavan.csprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+﻿.pictureContainer 
+{
+       margin: 0 auto;
+       width: 626px;
+}
+.picture {
+	padding: 10px;
+	border: 1px solid #0249a5;
+}
+.picture img {
+	width: 600px;
+	height: 480px;
+	border: 1px solid #0249a5;
+}
