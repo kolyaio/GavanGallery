@@ -1,6 +1,6 @@
 GavanGallery
 ============
-![](https://s28.postimg.org/bkctdmlfh/i_Umvw_Sk.jpg)
+![](https://xwotia-ch3302.files.1drv.com/y3mhPk48waQkINd6MNvWjxJSUB7ck301aueG59KpmzOYa9b2iOrjs_W0b1VhjXIGgLr0LqRPTKUAtKEjXgo_WUeOg8zZueEbuMGIMy4ZZaM4ymaR1TtXQHPq7ZA2QRafFfalcqZ8TKASmai1JThpTiXU6_Fs1wsX5ODtS1xyoyBYBo?width=660&height=350&cropmode=none)
 
 
 This is my school project and I decided to upload it. 
