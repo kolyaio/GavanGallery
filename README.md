@@ -1,6 +1,6 @@
 GavanGallery
 ============
-!(https://s28.postimg.org/bkctdmlfh/i_Umvw_Sk.jpg)
+![](https://s28.postimg.org/bkctdmlfh/i_Umvw_Sk.jpg)
 
 
 This is my school project and I decided to upload it. 
